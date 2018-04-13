@@ -1,0 +1,37 @@
+body{
+    font-family: san-serif, verdana;
+    text-align: center;
+    margin: 0;
+}
+#header{
+    padding: 20px 10px;
+    text-align: left;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #7556bd;
+}
+#datetime{
+    text-align: center;
+}
+.cover{border: 1px solid #777;}
+#date-cover, #time-cover{
+    display: inline-block;
+    padding: 10px;
+}
+#clock-cover{
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+.cover-item{
+    background-color: #b0a5e8;
+    display: inline-block;
+    padding: 15px 25px;
+}
+.cover-item .item{
+    color: black;
+    background-color: #fff;
+    display: inline-block;
+    padding: 4px 15px;
+    font-size: 2rem;
+}
